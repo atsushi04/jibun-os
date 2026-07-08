@@ -7,7 +7,7 @@
 - 📁 **番号付きフォルダ構造** — 不変の文脈（00_context）から流動的な制作物まで、AIが迷わない「番地」設計
 - 📄 **CLAUDE.md** — AIの役割定義とディレクトリの意味を記述した中核コンテキスト
 - 🧠 **memories/** — 意思決定・好み・方針を蓄積してAIが次の判断に活かす記憶の仕組み
-- ⚙️ **運用スキル4種** — あなた向けにパーソナライズされた daily-schedule / daily-summary / weekly-review / monthly-review
+- ⚙️ **運用スキル5種** — あなた向けにパーソナライズされた daily-schedule / daily-summary / weekly-review / monthly-review / **os-growth**（ワークスペースを「作って満足」で終わらせず、00_contextや戦略ファイルを自分の言葉で育てていくためのガイド役）
 
 ## インストール
 
@@ -39,7 +39,7 @@ your-workspace/
 ├── 01_strategy/         # 書き換え続ける目標・戦略
 ├── …                    # ヒアリング結果に応じた用途別フォルダ
 ├── 99_memo/             # 雑多なインボックス
-└── .claude/skills/      # パーソナライズ済みの運用スキル4種
+└── .claude/skills/      # パーソナライズ済みの運用スキル5種
 ```
 
 ## 設計思想
@@ -48,18 +48,13 @@ your-workspace/
 2. **不変の文脈と進行中の戦略を分ける** — AIがどちらを軸に考えるべきか迷わない
 3. **記憶と判断の蓄積** — memories/ に意思決定ログを溜め、次の判断に効かせる
 4. **スキルはユーザーのもの** — 生成されたスキルは `.claude/skills/` に置かれ、自由に育てられる
+5. **育て方までガイドする** — フォルダを作るだけでは価値は出ません。os-growth が「何を書けばいいか」を質問形式でその場で一緒に埋め、週次/月次の振り返りサイクルに組み込みます
 
 ## 動作要件
 
 - Claude Code
 - git（daily-summary / weekly-review がコミットログを利用。なくても動作するがgit管理を推奨）
 - gh CLI（タスク管理にGitHub Issuesを選んだ場合のみ）
-
-## 将来の拡張候補
-
-- SessionStart hook による朝の工程表の自動提案
-- 英語対応README・テンプレート
-- タスク管理ツール連携の追加（Notion / Linear など）
 
 ## License
 
