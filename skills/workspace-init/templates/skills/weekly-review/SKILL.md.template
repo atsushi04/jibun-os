@@ -1,6 +1,6 @@
 <!-- GENERATOR:
 生成先: <workspace>/.claude/skills/weekly-review/SKILL.md
-- {{REVIEW_DAY}}: 振り返り曜日（デフォルト: 土曜日。ヒアリングで別の希望があれば置換）
+- {{REVIEW_DAY}}: 振り返り曜日（ヒアリングQ4で確認。デフォルト: 土曜日）
 - {{USER_NAME}}: ユーザーの名前・呼び名
 - <IF:git> / <IF:tasks_github> / <IF:tasks_local> はワークスペース環境に合わせて取捨選択
 - 「Good / Motto」はAIパートナーからの率直なフィードバック文化。生成時に残すこと（このスキルの核）
