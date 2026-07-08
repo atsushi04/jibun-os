@@ -1,0 +1,14 @@
+{
+  "name": "jibun-os",
+  "displayName": "Jibun OS",
+  "description": "AIエージェントと業務・生活を管理する「フォルダ＝OS」ワークスペースを、ヒアリングベースで構築するプラグイン。フォルダ構造・CLAUDE.md・日次/週次/月次の運用スキルを、あなたの志向性に合わせて生成します。",
+  "version": "0.1.0",
+  "author": {
+    "name": "atsushi04",
+    "url": "https://github.com/atsushi04"
+  },
+  "homepage": "https://github.com/atsushi04/jibun-os",
+  "repository": "https://github.com/atsushi04/jibun-os",
+  "license": "MIT",
+  "keywords": ["workspace", "productivity", "life-os", "second-brain", "japanese"]
+}

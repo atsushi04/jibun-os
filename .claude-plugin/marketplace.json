@@ -1,0 +1,19 @@
+{
+  "name": "jibun-os",
+  "owner": {
+    "name": "atsushi04",
+    "url": "https://github.com/atsushi04"
+  },
+  "metadata": {
+    "description": "AIエージェントと業務・生活を管理する「フォルダ＝OS」ワークスペースを構築するプラグインのマーケットプレイス",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "jibun-os",
+      "source": "./",
+      "description": "ヒアリングベースで、あなた専用の「フォルダ＝OS」ワークスペース（フォルダ構造・CLAUDE.md・日次/週次/月次スキル）を生成するプラグイン",
+      "category": "productivity"
+    }
+  ]
+}
