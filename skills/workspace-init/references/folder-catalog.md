@@ -11,8 +11,8 @@
 | `DAILY.md` | 毎日の工程表・作業ログ | templates/DAILY.md.template |
 | `00_context/` | 不変の文脈。`profile.md`（プロフィール）を含む | |
 | `00_context/memories/` | AIの記憶。`MEMORY.md`（インデックス）を含む | templates/memories/MEMORY.md.template |
-| `01_strategy/` または `01_goals/` | 書き換え続ける目標・方針 | 仕事スコープあり→`01_strategy/`、生活のみ→`01_goals/` |
-| `99_memo/` | 雑多なメモ・一時的な参考資料のインボックス | |
+| `01_strategy/` または `01_goals/` | 書き換え続ける目標・方針 | 仕事スコープあり→`01_strategy/`、生活のみ→`01_goals/`。スターターとして `goals.md`（ヒアリングで聞き取れた目標の骨子）を必ず置く。振り返りスキルの参照先が空にならないようにするため |
+| `99_memo/` | 雑多なメモ・一時的な参考資料のインボックス | README.md（用途1行）を置く |
 
 ## 条件付き（ヒアリング結果で選択）
 
